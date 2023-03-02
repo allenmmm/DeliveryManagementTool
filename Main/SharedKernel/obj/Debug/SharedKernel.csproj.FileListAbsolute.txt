@@ -1,0 +1,11 @@
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\bin\Debug\DMT.SharedKernel.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\bin\Debug\DMT.SharedKernel.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\bin\Debug\DMT.SharedKernel.dll.CodeAnalysisLog.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\bin\Debug\DMT.SharedKernel.dll.lastcodeanalysissucceeded
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\bin\Debug\StructureMap.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\bin\Debug\StructureMap.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\obj\Debug\SharedKernel.csprojAssemblyReference.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\obj\Debug\SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\obj\Debug\SharedKernel.csproj.CopyComplete
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\obj\Debug\DMT.SharedKernel.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\SharedKernel\obj\Debug\DMT.SharedKernel.pdb

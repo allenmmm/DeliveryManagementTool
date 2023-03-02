@@ -1,0 +1,21 @@
+﻿@model DMT.SharedKernel.NotificationState
+@{
+    switch (Model)
+    {
+        case DMT.SharedKernel.NotificationState.Success:
+            <i class="fas fa-check-circle"></i>
+            break;
+        case DMT.SharedKernel.NotificationState.Warning:
+            <i class="fas fa-exclamation-triangle"></i>
+            break;
+        case DMT.SharedKernel.NotificationState.Error:
+            <i class="fas fa-exclamation-circle"></i>
+            break;
+        case DMT.SharedKernel.NotificationState.Information:
+            <i class="fas fa-info-circle"></i>
+            break;
+        default:
+            <i class="fas fa-exclamation-triangle"></i>
+            break;
+    }
+}

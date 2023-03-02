@@ -1,0 +1,13 @@
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\GeneratingOrderbooks.EventService.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\GeneratingOrderbooks.EventService.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\GeneratingOrderbooks.EventService.dll.CodeAnalysisLog.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\GeneratingOrderbooks.EventService.dll.lastcodeanalysissucceeded
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\DMT.SharedKernel.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\StructureMap.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\DMT.SharedKernel.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\bin\Debug\StructureMap.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\obj\Debug\GeneratingOrderbooks.EventService.csprojAssemblyReference.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\obj\Debug\GeneratingOrderbooks.EventService.csproj.CoreCompileInputs.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\obj\Debug\GeneratingOrderbooks.EventService.csproj.CopyComplete
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\obj\Debug\GeneratingOrderbooks.EventService.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderbooks.EventService\obj\Debug\GeneratingOrderbooks.EventService.pdb

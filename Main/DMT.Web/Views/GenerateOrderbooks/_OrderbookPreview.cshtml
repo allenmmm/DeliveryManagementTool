@@ -1,0 +1,48 @@
+﻿@model DMT.DTO.OrderbookPreviewsDTO
+
+<table id="OrderbookPreviewTable" class="cell-border hover stripe" style="width: 100%;">
+    <thead>
+        <tr>
+            <th style="width: 25%;">Date Generated</th>
+            <th style="width: 20%;">Vendor Code</th>
+            <th style="width: 55%;">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderbookPreviewDTOs)
+        {
+            <tr id="@item.Id">
+                <td>@Html.DisplayFor(modelItem => item.DateGenerated)</td>
+                <td>@Html.DisplayFor(modelItem => item.VendorCode)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot><tr><td></td><td></td><td></td></tr></tfoot>
+</table>
+
+<script src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/datetime-moment.js"></script>
+<script>
+    $(document).ready(function () {
+        // -- DataTables sorting rules
+        $.fn.dataTable.moment("dd/MM/YYYY HH:mm:ss");
+
+        // -- DataTables initialisation
+        var orderbookPreviewTable =
+            $('#OrderbookPreviewTable').DataTable({
+                paging: false,
+                info: false,
+                order: [
+                    [0, "desc"]
+                ],
+                scrollY: "40rem",
+                scrollCollapse: true,
+                searching: false,
+                columns: [
+                    null,
+                    null,
+                    { orderable: false }
+                ]
+            });
+    });
+</script>

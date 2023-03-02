@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters>
+  <parameter name ="Environment" description="Establishes environmental mode for migrations" defaultvalue="__Environment__" tags="">
+    <parameterentry kind ="xmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='Environment']/@value">
+    </parameterentry>
+  </parameter>
+  <parameter name ="DomainName" description="Identifies domain name under eg ggdpld01/DMT" defaultvalue="__DomainName__" tags="">
+    <parameterentry kind ="xmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='DomainName']/@value">
+    </parameterentry>
+  </parameter>
+</parameters>

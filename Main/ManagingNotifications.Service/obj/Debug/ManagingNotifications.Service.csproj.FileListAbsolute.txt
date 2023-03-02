@@ -1,0 +1,17 @@
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.ManagingNotifications.Service.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.ManagingNotifications.Service.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.ManagingNotifications.Service.dll.CodeAnalysisLog.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.ManagingNotifications.Service.dll.lastcodeanalysissucceeded
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.DTO.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.ManagingNotifications.Domain.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.SharedKernel.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\StructureMap.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.DTO.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.ManagingNotifications.Domain.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\DMT.SharedKernel.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\bin\Debug\StructureMap.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\obj\Debug\ManagingNotifications.Service.csprojAssemblyReference.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\obj\Debug\ManagingNotifications.Service.csproj.CoreCompileInputs.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\obj\Debug\ManagingNotifications.Service.csproj.CopyComplete
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\obj\Debug\DMT.ManagingNotifications.Service.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\ManagingNotifications.Service\obj\Debug\DMT.ManagingNotifications.Service.pdb

@@ -1,0 +1,3 @@
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\DMT.Web\obj\Debug\DMT.Web.csprojAssemblyReference.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\DMT.Web\obj\Debug\DMT.Web.dll.config
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\DMT.Web\obj\Debug\DMT.Web.csproj.CoreCompileInputs.cache

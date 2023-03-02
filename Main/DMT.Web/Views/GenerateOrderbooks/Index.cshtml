@@ -1,0 +1,58 @@
+﻿@model DMT.Web.ViewModels.GenerateOrderbooksIndexVM
+
+@{
+    ViewBag.friendlyController = "Generate Orderbooks";
+    ViewBag.friendlyAction = "Index";
+}
+
+<div class="home-index">
+    <div class="home-index-generateorderbooks">
+        <button type="button" class="btn-collins" id="GenerateOrderbooksButton">Generate Orderbooks</button>
+    </div>
+
+    <div class="home-index-vieworderbooks">
+        <div class="orderbookWeek-dropdown">
+            <div class="dropdown-header">
+                <h2>Orderbooks</h2>
+            </div>
+            <div class="dropdown-wrapper">
+                <select id="OrderbookWeekSelectBox">
+                    <option disabled selected hidden>Choose Week</option>
+                    @foreach (var item in Model.OrderbookWeeks)
+                    {
+                        <option>@Html.DisplayFor(modelItem => item.OrderbookWeek)</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <br />
+        <div id="OrderbookPreviewPartial" class="orderbookpreview-table">
+            @{
+                Html.RenderPartial("_OrderbookPreview", Model.OrderbookPreviews);
+            }
+        </div>
+    </div>
+
+    <div class="home-index-notifications">
+        @{
+            Html.RenderAction("GetNotifications", "ManagingNotifications");
+        }
+    </div>
+</div>
+
+<script src="~/Scripts/Plugins/jquery.selectric.js"></script>
+<script>Window.urlReq = '@System.Web.Configuration.WebConfigurationManager.AppSettings["DomainName"]' + '/GenerateOrderbooks/';</script>
+<script>
+    $('#OrderbookWeekSelectBox').selectric({
+        maxHeight: 200,
+        onChange: function (e) {
+            var value = $(this).val();
+            $('#OrderbookPreviewPartial')
+                .load('@Url.Action("_OrderbookPreview", "GenerateOrderbooks")/?orderbookWeek=' + value);
+        }
+    });
+
+    $('#GenerateOrderbooksButton').on('click', function () {
+        $.get(Window.urlReq + 'GenerateOrderbooks');
+    });
+</script>

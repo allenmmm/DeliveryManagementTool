@@ -1,0 +1,317 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{F7337465-E6C5-4334-8112-2DC139D6D675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{E1EFA4BC-BA95-4AC0-9882-DB4173435ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{EF00FA7C-C72D-480D-BD65-C149514281DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManagingNotifications", "ManagingNotifications", "{F6EEFBD0-67E0-457F-83F8-2D5909CDD391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.Service", "ManagingNotifications.Service\ManagingNotifications.Service.csproj", "{484DC3B3-55E0-428E-8A90-64A4880682F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMT.Web", "DMT.Web\DMT.Web.csproj", "{26A9D733-88CA-4383-BB7F-7EB5CAFED0B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenerateOrderbooks", "GenerateOrderbooks", "{3289576A-F8CB-44F7-A802-C34A6B1BD203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9C854921-9AF7-4C5F-B1E3-DE309A04D5D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5E79ECD5-5E1A-47DE-93C6-92CEC4CEC519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.Service", "GeneratingOrderbooks.Service\GeneratingOrderbooks.Service.csproj", "{5222F052-4C06-4FD0-80AA-A6217523D708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.Domain", "GeneratingOrderBooks.Domain\GeneratingOrderbooks.Domain.csproj", "{CA254A9D-7D88-444D-B484-1F3E132D33B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.Data", "GeneratingOrderBooks.Data\GeneratingOrderbooks.Data.csproj", "{19642001-C564-498E-91CF-AC3F9E6D4597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.given_an_orderbook.Data.Test", "GeneratingOrderbooks.given_an_orderbook.Data.Test\GeneratingOrderbooks.given_an_orderbook.Data.Test.csproj", "{56BBD8A6-A45F-4D7B-BF71-576A566BC5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.given_an_orderbook.Domain.Test", "GeneratingOrderbooks.given_an_orderbook.Domain.Test\GeneratingOrderbooks.given_an_orderbook.Domain.Test.csproj", "{5D9BA52A-EB98-4BDD-995B-821761EF9658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.given_an_orderbook.Service.Test", "GeneratingOrderbooks.given_an_orderbook.Service.Test\GeneratingOrderbooks.given_an_orderbook.Service.Test.csproj", "{658B7798-75EC-4779-BFA9-A4F55B66D160}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F655C07E-50CD-4435-9900-1DD4168511EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel.Test", "SharedKernel.Test\SharedKernel.Test.csproj", "{D6C894A9-80C3-4A66-AE5E-CBEEDBAC7DBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestData", "TestData", "{26AB3177-550C-486B-B4E3-EEE97E07F5AB}"
+	ProjectSection(SolutionItems) = preProject
+		GeneratingOrderbooks.given_an_orderbook.Data.Test\TestData\MIS PLY Purchasing Data-inconsistent_date_pulled.csv = GeneratingOrderbooks.given_an_orderbook.Data.Test\TestData\MIS PLY Purchasing Data-inconsistent_date_pulled.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.given_an_orderbook.Integration.Test", "GeneratingOrderbooks.given_an_orderbook.Integration.Test\GeneratingOrderbooks.given_an_orderbook.Integration.Test.csproj", "{40D33C58-23A8-43CD-80D4-B9D4BE5B66D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.Domain", "ManagingNotifications.Domain\ManagingNotifications.Domain.csproj", "{F7E3337A-CD83-4771-AA1A-9EFD8829F610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.Data", "ManagingNotifications.Data\ManagingNotifications.Data.csproj", "{36420629-698E-4CC5-A97B-D3F06E42595E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{582DD3C2-297E-47B4-B065-D5C86DB0F1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.EventService", "ManagingNotifications.EventService\ManagingNotifications.EventService.csproj", "{A1189F40-610D-4F12-A5C2-385ABA991606}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EAA0C60A-577A-42C0-A43F-4D913D9FD22B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{36ECB007-CC7A-4F16-B39B-93EFA60DE2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.given_a_notification.Data.Test", "ManagingNotifications.given_a_notification.Data.Test\ManagingNotifications.given_a_notification.Data.Test.csproj", "{909E47FA-28B7-47A9-A71D-C9BDAB63419B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.given_a_notification.Service.Test", "ManagingNotifications.given_a_notification.Service.Test\ManagingNotifications.given_a_notification.Service.Test.csproj", "{7DDB28F3-653E-45DF-9D87-7E273C86B3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.given_a_notification.Domain.Test", "ManagingNotifications.given_a_notification.Domain.Test\ManagingNotifications.given_a_notification.Domain.Test.csproj", "{5A4F3BCF-A06F-4647-B5D3-9473C0DF546A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.given_a_notification.EventService.Test", "ManagingNotifications.given_a_notification.EventService.Test\ManagingNotifications.given_a_notification.EventService.Test.csproj", "{D55634BF-A9CD-4927-B636-EF43B272D312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.given_a_notification.Integration.Test", "ManagingNotifications.given_a_notification.Integration.Test\ManagingNotifications.given_a_notification.Integration.Test.csproj", "{6198257E-95CA-44DC-8A5C-84A20539E3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.given_an_orderbook.Presentation.Test", "GeneratingOrderbooks.given_an_orderbook.Presentation.Test\GeneratingOrderbooks.given_an_orderbook.Presentation.Test.csproj", "{F5770210-AC60-45B0-813C-BDAEE9C1A1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagingNotifications.given_a_notification.Presentation.Test", "ManagingNotifications.given_a_notification.Presentation.Test\ManagingNotifications.given_a_notification.Presentation.Test.csproj", "{EC61EC0A-324F-4A83-B49C-3E8D8C063DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.EventService", "GeneratingOrderbooks.EventService\GeneratingOrderbooks.EventService.csproj", "{FAF37631-63A0-44D5-99E3-E85CBFA32B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingOrderbooks.given_an_orderbook.EventService.Test", "GeneratingOrderbooks.given_a_orderbook.EventService.Test\GeneratingOrderbooks.given_an_orderbook.EventService.Test.csproj", "{E70C5EF1-5BF6-49B4-9907-964218CE11F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7337465-E6C5-4334-8112-2DC139D6D675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7337465-E6C5-4334-8112-2DC139D6D675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7337465-E6C5-4334-8112-2DC139D6D675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7337465-E6C5-4334-8112-2DC139D6D675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF00FA7C-C72D-480D-BD65-C149514281DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF00FA7C-C72D-480D-BD65-C149514281DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF00FA7C-C72D-480D-BD65-C149514281DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF00FA7C-C72D-480D-BD65-C149514281DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484DC3B3-55E0-428E-8A90-64A4880682F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484DC3B3-55E0-428E-8A90-64A4880682F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484DC3B3-55E0-428E-8A90-64A4880682F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484DC3B3-55E0-428E-8A90-64A4880682F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A9D733-88CA-4383-BB7F-7EB5CAFED0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A9D733-88CA-4383-BB7F-7EB5CAFED0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A9D733-88CA-4383-BB7F-7EB5CAFED0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A9D733-88CA-4383-BB7F-7EB5CAFED0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5222F052-4C06-4FD0-80AA-A6217523D708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5222F052-4C06-4FD0-80AA-A6217523D708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5222F052-4C06-4FD0-80AA-A6217523D708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5222F052-4C06-4FD0-80AA-A6217523D708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA254A9D-7D88-444D-B484-1F3E132D33B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA254A9D-7D88-444D-B484-1F3E132D33B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA254A9D-7D88-444D-B484-1F3E132D33B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA254A9D-7D88-444D-B484-1F3E132D33B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19642001-C564-498E-91CF-AC3F9E6D4597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19642001-C564-498E-91CF-AC3F9E6D4597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19642001-C564-498E-91CF-AC3F9E6D4597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19642001-C564-498E-91CF-AC3F9E6D4597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BBD8A6-A45F-4D7B-BF71-576A566BC5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BBD8A6-A45F-4D7B-BF71-576A566BC5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BBD8A6-A45F-4D7B-BF71-576A566BC5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BBD8A6-A45F-4D7B-BF71-576A566BC5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9BA52A-EB98-4BDD-995B-821761EF9658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9BA52A-EB98-4BDD-995B-821761EF9658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9BA52A-EB98-4BDD-995B-821761EF9658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9BA52A-EB98-4BDD-995B-821761EF9658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658B7798-75EC-4779-BFA9-A4F55B66D160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658B7798-75EC-4779-BFA9-A4F55B66D160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658B7798-75EC-4779-BFA9-A4F55B66D160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658B7798-75EC-4779-BFA9-A4F55B66D160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C894A9-80C3-4A66-AE5E-CBEEDBAC7DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C894A9-80C3-4A66-AE5E-CBEEDBAC7DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C894A9-80C3-4A66-AE5E-CBEEDBAC7DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C894A9-80C3-4A66-AE5E-CBEEDBAC7DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D33C58-23A8-43CD-80D4-B9D4BE5B66D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D33C58-23A8-43CD-80D4-B9D4BE5B66D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D33C58-23A8-43CD-80D4-B9D4BE5B66D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D33C58-23A8-43CD-80D4-B9D4BE5B66D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E3337A-CD83-4771-AA1A-9EFD8829F610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E3337A-CD83-4771-AA1A-9EFD8829F610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E3337A-CD83-4771-AA1A-9EFD8829F610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E3337A-CD83-4771-AA1A-9EFD8829F610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36420629-698E-4CC5-A97B-D3F06E42595E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36420629-698E-4CC5-A97B-D3F06E42595E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36420629-698E-4CC5-A97B-D3F06E42595E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36420629-698E-4CC5-A97B-D3F06E42595E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1189F40-610D-4F12-A5C2-385ABA991606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1189F40-610D-4F12-A5C2-385ABA991606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1189F40-610D-4F12-A5C2-385ABA991606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1189F40-610D-4F12-A5C2-385ABA991606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909E47FA-28B7-47A9-A71D-C9BDAB63419B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909E47FA-28B7-47A9-A71D-C9BDAB63419B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909E47FA-28B7-47A9-A71D-C9BDAB63419B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909E47FA-28B7-47A9-A71D-C9BDAB63419B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDB28F3-653E-45DF-9D87-7E273C86B3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDB28F3-653E-45DF-9D87-7E273C86B3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDB28F3-653E-45DF-9D87-7E273C86B3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDB28F3-653E-45DF-9D87-7E273C86B3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4F3BCF-A06F-4647-B5D3-9473C0DF546A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4F3BCF-A06F-4647-B5D3-9473C0DF546A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4F3BCF-A06F-4647-B5D3-9473C0DF546A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4F3BCF-A06F-4647-B5D3-9473C0DF546A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55634BF-A9CD-4927-B636-EF43B272D312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55634BF-A9CD-4927-B636-EF43B272D312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55634BF-A9CD-4927-B636-EF43B272D312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55634BF-A9CD-4927-B636-EF43B272D312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6198257E-95CA-44DC-8A5C-84A20539E3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6198257E-95CA-44DC-8A5C-84A20539E3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6198257E-95CA-44DC-8A5C-84A20539E3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6198257E-95CA-44DC-8A5C-84A20539E3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5770210-AC60-45B0-813C-BDAEE9C1A1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5770210-AC60-45B0-813C-BDAEE9C1A1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5770210-AC60-45B0-813C-BDAEE9C1A1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5770210-AC60-45B0-813C-BDAEE9C1A1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC61EC0A-324F-4A83-B49C-3E8D8C063DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC61EC0A-324F-4A83-B49C-3E8D8C063DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC61EC0A-324F-4A83-B49C-3E8D8C063DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC61EC0A-324F-4A83-B49C-3E8D8C063DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF37631-63A0-44D5-99E3-E85CBFA32B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF37631-63A0-44D5-99E3-E85CBFA32B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF37631-63A0-44D5-99E3-E85CBFA32B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF37631-63A0-44D5-99E3-E85CBFA32B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70C5EF1-5BF6-49B4-9907-964218CE11F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70C5EF1-5BF6-49B4-9907-964218CE11F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70C5EF1-5BF6-49B4-9907-964218CE11F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70C5EF1-5BF6-49B4-9907-964218CE11F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF00FA7C-C72D-480D-BD65-C149514281DA} = {E1EFA4BC-BA95-4AC0-9882-DB4173435ECE}
+		{484DC3B3-55E0-428E-8A90-64A4880682F6} = {F6EEFBD0-67E0-457F-83F8-2D5909CDD391}
+		{9C854921-9AF7-4C5F-B1E3-DE309A04D5D0} = {3289576A-F8CB-44F7-A802-C34A6B1BD203}
+		{5E79ECD5-5E1A-47DE-93C6-92CEC4CEC519} = {3289576A-F8CB-44F7-A802-C34A6B1BD203}
+		{5222F052-4C06-4FD0-80AA-A6217523D708} = {3289576A-F8CB-44F7-A802-C34A6B1BD203}
+		{CA254A9D-7D88-444D-B484-1F3E132D33B1} = {3289576A-F8CB-44F7-A802-C34A6B1BD203}
+		{19642001-C564-498E-91CF-AC3F9E6D4597} = {9C854921-9AF7-4C5F-B1E3-DE309A04D5D0}
+		{56BBD8A6-A45F-4D7B-BF71-576A566BC5E7} = {F655C07E-50CD-4435-9900-1DD4168511EA}
+		{5D9BA52A-EB98-4BDD-995B-821761EF9658} = {5E79ECD5-5E1A-47DE-93C6-92CEC4CEC519}
+		{658B7798-75EC-4779-BFA9-A4F55B66D160} = {5E79ECD5-5E1A-47DE-93C6-92CEC4CEC519}
+		{F655C07E-50CD-4435-9900-1DD4168511EA} = {5E79ECD5-5E1A-47DE-93C6-92CEC4CEC519}
+		{D6C894A9-80C3-4A66-AE5E-CBEEDBAC7DBE} = {E1EFA4BC-BA95-4AC0-9882-DB4173435ECE}
+		{26AB3177-550C-486B-B4E3-EEE97E07F5AB} = {F655C07E-50CD-4435-9900-1DD4168511EA}
+		{40D33C58-23A8-43CD-80D4-B9D4BE5B66D0} = {5E79ECD5-5E1A-47DE-93C6-92CEC4CEC519}
+		{F7E3337A-CD83-4771-AA1A-9EFD8829F610} = {F6EEFBD0-67E0-457F-83F8-2D5909CDD391}
+		{36420629-698E-4CC5-A97B-D3F06E42595E} = {582DD3C2-297E-47B4-B065-D5C86DB0F1D4}
+		{582DD3C2-297E-47B4-B065-D5C86DB0F1D4} = {F6EEFBD0-67E0-457F-83F8-2D5909CDD391}
+		{A1189F40-610D-4F12-A5C2-385ABA991606} = {582DD3C2-297E-47B4-B065-D5C86DB0F1D4}
+		{EAA0C60A-577A-42C0-A43F-4D913D9FD22B} = {F6EEFBD0-67E0-457F-83F8-2D5909CDD391}
+		{36ECB007-CC7A-4F16-B39B-93EFA60DE2FF} = {EAA0C60A-577A-42C0-A43F-4D913D9FD22B}
+		{909E47FA-28B7-47A9-A71D-C9BDAB63419B} = {36ECB007-CC7A-4F16-B39B-93EFA60DE2FF}
+		{7DDB28F3-653E-45DF-9D87-7E273C86B3F0} = {EAA0C60A-577A-42C0-A43F-4D913D9FD22B}
+		{5A4F3BCF-A06F-4647-B5D3-9473C0DF546A} = {EAA0C60A-577A-42C0-A43F-4D913D9FD22B}
+		{D55634BF-A9CD-4927-B636-EF43B272D312} = {36ECB007-CC7A-4F16-B39B-93EFA60DE2FF}
+		{6198257E-95CA-44DC-8A5C-84A20539E3BB} = {EAA0C60A-577A-42C0-A43F-4D913D9FD22B}
+		{F5770210-AC60-45B0-813C-BDAEE9C1A1A5} = {5E79ECD5-5E1A-47DE-93C6-92CEC4CEC519}
+		{EC61EC0A-324F-4A83-B49C-3E8D8C063DF3} = {EAA0C60A-577A-42C0-A43F-4D913D9FD22B}
+		{FAF37631-63A0-44D5-99E3-E85CBFA32B93} = {9C854921-9AF7-4C5F-B1E3-DE309A04D5D0}
+		{E70C5EF1-5BF6-49B4-9907-964218CE11F2} = {F655C07E-50CD-4435-9900-1DD4168511EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFCD67C-4CBC-4940-B5B2-55DA042C0716}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 25
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ggbpla0i:8080/tfs/devopsprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DTO\\DTO.csproj
+		SccProjectName1 = DTO
+		SccLocalPath1 = DTO
+		SccProjectUniqueName2 = SharedKernel\\SharedKernel.csproj
+		SccProjectTopLevelParentUniqueName2 = DMT.sln
+		SccProjectName2 = SharedKernel
+		SccLocalPath2 = SharedKernel
+		SccProjectUniqueName3 = ManagingNotifications.Service\\ManagingNotifications.Service.csproj
+		SccProjectTopLevelParentUniqueName3 = DMT.sln
+		SccProjectName3 = ManagingNotifications.Service
+		SccLocalPath3 = ManagingNotifications.Service
+		SccProjectUniqueName4 = DMT.Web\\DMT.Web.csproj
+		SccProjectName4 = DMT.Web
+		SccLocalPath4 = DMT.Web
+		SccProjectUniqueName5 = GeneratingOrderbooks.Service\\GeneratingOrderbooks.Service.csproj
+		SccProjectTopLevelParentUniqueName5 = DMT.sln
+		SccProjectName5 = GeneratingOrderbooks.Service
+		SccLocalPath5 = GeneratingOrderbooks.Service
+		SccProjectUniqueName6 = GeneratingOrderBooks.Domain\\GeneratingOrderbooks.Domain.csproj
+		SccProjectTopLevelParentUniqueName6 = DMT.sln
+		SccProjectName6 = GeneratingOrderBooks.Domain
+		SccLocalPath6 = GeneratingOrderBooks.Domain
+		SccProjectUniqueName7 = GeneratingOrderBooks.Data\\GeneratingOrderbooks.Data.csproj
+		SccProjectTopLevelParentUniqueName7 = DMT.sln
+		SccProjectName7 = GeneratingOrderBooks.Data
+		SccLocalPath7 = GeneratingOrderBooks.Data
+		SccProjectUniqueName8 = GeneratingOrderbooks.given_an_orderbook.Data.Test\\GeneratingOrderbooks.given_an_orderbook.Data.Test.csproj
+		SccProjectTopLevelParentUniqueName8 = DMT.sln
+		SccProjectName8 = GeneratingOrderbooks.given_an_orderbook.Data.Test
+		SccLocalPath8 = GeneratingOrderbooks.given_an_orderbook.Data.Test
+		SccProjectUniqueName9 = GeneratingOrderbooks.given_an_orderbook.Domain.Test\\GeneratingOrderbooks.given_an_orderbook.Domain.Test.csproj
+		SccProjectTopLevelParentUniqueName9 = DMT.sln
+		SccProjectName9 = GeneratingOrderbooks.given_an_orderbook.Domain.Test
+		SccLocalPath9 = GeneratingOrderbooks.given_an_orderbook.Domain.Test
+		SccProjectUniqueName10 = GeneratingOrderbooks.given_an_orderbook.Service.Test\\GeneratingOrderbooks.given_an_orderbook.Service.Test.csproj
+		SccProjectTopLevelParentUniqueName10 = DMT.sln
+		SccProjectName10 = GeneratingOrderbooks.given_an_orderbook.Service.Test
+		SccLocalPath10 = GeneratingOrderbooks.given_an_orderbook.Service.Test
+		SccProjectUniqueName11 = SharedKernel.Test\\SharedKernel.Test.csproj
+		SccProjectTopLevelParentUniqueName11 = DMT.sln
+		SccProjectName11 = SharedKernel.Test
+		SccLocalPath11 = SharedKernel.Test
+		SccProjectUniqueName12 = GeneratingOrderbooks.given_an_orderbook.Integration.Test\\GeneratingOrderbooks.given_an_orderbook.Integration.Test.csproj
+		SccProjectTopLevelParentUniqueName12 = DMT.sln
+		SccProjectName12 = GeneratingOrderbooks.given_an_orderbook.Integration.Test
+		SccLocalPath12 = GeneratingOrderbooks.given_an_orderbook.Integration.Test
+		SccProjectUniqueName13 = ManagingNotifications.Domain\\ManagingNotifications.Domain.csproj
+		SccProjectTopLevelParentUniqueName13 = DMT.sln
+		SccProjectName13 = ManagingNotifications.Domain
+		SccLocalPath13 = ManagingNotifications.Domain
+		SccProjectUniqueName14 = ManagingNotifications.Data\\ManagingNotifications.Data.csproj
+		SccProjectTopLevelParentUniqueName14 = DMT.sln
+		SccProjectName14 = ManagingNotifications.Data
+		SccLocalPath14 = ManagingNotifications.Data
+		SccProjectUniqueName15 = ManagingNotifications.EventService\\ManagingNotifications.EventService.csproj
+		SccProjectTopLevelParentUniqueName15 = DMT.sln
+		SccProjectName15 = ManagingNotifications.EventService
+		SccLocalPath15 = ManagingNotifications.EventService
+		SccProjectUniqueName16 = ManagingNotifications.given_a_notification.Data.Test\\ManagingNotifications.given_a_notification.Data.Test.csproj
+		SccProjectTopLevelParentUniqueName16 = DMT.sln
+		SccProjectName16 = ManagingNotifications.given_a_notification.Data.Test
+		SccLocalPath16 = ManagingNotifications.given_a_notification.Data.Test
+		SccProjectUniqueName17 = ManagingNotifications.given_a_notification.Service.Test\\ManagingNotifications.given_a_notification.Service.Test.csproj
+		SccProjectTopLevelParentUniqueName17 = DMT.sln
+		SccProjectName17 = ManagingNotifications.given_a_notification.Service.Test
+		SccLocalPath17 = ManagingNotifications.given_a_notification.Service.Test
+		SccProjectUniqueName18 = ManagingNotifications.given_a_notification.Domain.Test\\ManagingNotifications.given_a_notification.Domain.Test.csproj
+		SccProjectTopLevelParentUniqueName18 = DMT.sln
+		SccProjectName18 = ManagingNotifications.given_a_notification.Domain.Test
+		SccLocalPath18 = ManagingNotifications.given_a_notification.Domain.Test
+		SccProjectUniqueName19 = ManagingNotifications.given_a_notification.EventService.Test\\ManagingNotifications.given_a_notification.EventService.Test.csproj
+		SccProjectTopLevelParentUniqueName19 = DMT.sln
+		SccProjectName19 = ManagingNotifications.given_a_notification.EventService.Test
+		SccLocalPath19 = ManagingNotifications.given_a_notification.EventService.Test
+		SccProjectUniqueName20 = ManagingNotifications.given_a_notification.Integration.Test\\ManagingNotifications.given_a_notification.Integration.Test.csproj
+		SccProjectTopLevelParentUniqueName20 = DMT.sln
+		SccProjectName20 = ManagingNotifications.given_a_notification.Integration.Test
+		SccLocalPath20 = ManagingNotifications.given_a_notification.Integration.Test
+		SccProjectUniqueName21 = GeneratingOrderbooks.given_an_orderbook.Presentation.Test\\GeneratingOrderbooks.given_an_orderbook.Presentation.Test.csproj
+		SccProjectTopLevelParentUniqueName21 = DMT.sln
+		SccProjectName21 = GeneratingOrderbooks.given_an_orderbook.Presentation.Test
+		SccLocalPath21 = GeneratingOrderbooks.given_an_orderbook.Presentation.Test
+		SccProjectUniqueName22 = ManagingNotifications.given_a_notification.Presentation.Test\\ManagingNotifications.given_a_notification.Presentation.Test.csproj
+		SccProjectTopLevelParentUniqueName22 = DMT.sln
+		SccProjectName22 = ManagingNotifications.given_a_notification.Presentation.Test
+		SccLocalPath22 = ManagingNotifications.given_a_notification.Presentation.Test
+		SccProjectUniqueName23 = GeneratingOrderbooks.EventService\\GeneratingOrderbooks.EventService.csproj
+		SccProjectTopLevelParentUniqueName23 = DMT.sln
+		SccProjectName23 = GeneratingOrderbooks.EventService
+		SccLocalPath23 = GeneratingOrderbooks.EventService
+		SccProjectUniqueName24 = GeneratingOrderbooks.given_a_orderbook.EventService.Test\\GeneratingOrderbooks.given_an_orderbook.EventService.Test.csproj
+		SccProjectTopLevelParentUniqueName24 = DMT.sln
+		SccProjectName24 = GeneratingOrderbooks.given_a_orderbook.EventService.Test
+		SccLocalPath24 = GeneratingOrderbooks.given_a_orderbook.EventService.Test
+	EndGlobalSection
+EndGlobal

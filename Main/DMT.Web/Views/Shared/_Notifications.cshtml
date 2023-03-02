@@ -1,0 +1,83 @@
+﻿@model IEnumerable<DMT.DTO.NotificationDTO>
+
+<h2 class="header-underline">Notifications</h2>
+<table id="NotificationTable" class="cell-border compact hover stripe" style="width: 100%;">
+    <thead>
+        <tr>
+            <th style="width: 15%;">
+                @Html.DisplayNameFor(model => model.DateRaised)
+            </th>
+            <th style="width: 80%;">
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th style="width: 5%; text-align: center;">
+                @Html.DisplayNameFor(model => model.NotificationState)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.DateRaised)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td style="text-align: center;">
+                    @Html.DisplayFor(modelItem => item.NotificationState)
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot><tr><td></td><td></td><td></td></tr></tfoot>
+</table>
+
+<script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
+<script src="~/signalr/hubs"></script>
+<script src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/datetime-moment.js"></script>
+<script src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/enum.js"></script>
+<script>
+    $(document).ready(function () {
+        // -- SignalR notification event
+        var hub = $.connection.notificationsUpdatedHub;
+
+        hub.client.appendToNotificationsTable = function (dateRaised, description, state) {
+            notificationTable.row.add([
+                dateRaised,
+                description,
+                state
+            ]).draw(false);
+        };
+
+        $.connection.hub.start();
+
+        // -- DataTables sorting rules
+        $.fn.dataTable.moment('dd/MM/YYYY HH:mm:ss');
+        $.fn.dataTable.enum([
+            '<i class="fas fa-exclamation-circle"></i>',
+            '<i class="fas fa-exclamation-triangle"></i>',
+            '<i class="fas fa-check-circle"></i>',
+            '<i class="fas fa-info-circle"></i>']);
+
+        // -- DataTables initialisation
+        var notificationTable =
+            $('#NotificationTable').DataTable({
+                paging: false,
+                info: false,
+                order: [
+                    [0, "desc"]
+                ],
+                scrollY: "16rem",
+                scrollCollapse: true,
+                searching: false,
+                columns: [
+                    null,
+                    { orderable: false },
+                    null
+                ],
+                createdRow: function (row, data, index) {
+                    if (data[2] != null) {
+                        $('td', row).eq(2).addClass('center');
+                    }
+                }
+            });
+    });
+</script>

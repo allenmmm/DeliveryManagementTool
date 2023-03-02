@@ -1,0 +1,13 @@
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\DMT.GeneratingOrderbooks.Domain.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\DMT.GeneratingOrderbooks.Domain.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\DMT.GeneratingOrderbooks.Domain.dll.CodeAnalysisLog.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\DMT.GeneratingOrderbooks.Domain.dll.lastcodeanalysissucceeded
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\DMT.SharedKernel.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\StructureMap.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\DMT.SharedKernel.pdb
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\bin\Debug\StructureMap.xml
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\obj\Debug\GeneratingOrderbooks.Domain.csprojAssemblyReference.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\obj\Debug\GeneratingOrderbooks.Domain.csproj.CoreCompileInputs.cache
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\obj\Debug\GeneratingOrderbooks.Domain.csproj.CopyComplete
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\obj\Debug\DMT.GeneratingOrderbooks.Domain.dll
+C:\Users\huxhamd\source\repos\Visual Studio 2017\Delivery Management Tool\Main\GeneratingOrderBooks.Domain\obj\Debug\DMT.GeneratingOrderbooks.Domain.pdb
